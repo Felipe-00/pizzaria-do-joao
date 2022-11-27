@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('../images/pizza-pizza-filled-with-tomatoes-salami-and-olives.jpg');
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #ff4545;
+}
+
+
+#login-container {
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 100px 30px;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #ff4545;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #ff4545;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #871313;
+    transition: .5s;
+}
+
+#social-container {
+    margin-bottom: 20px;
+}
+
+#social-container p {
+    margin-bottom: 20px;
+}
+
+#register-container p {
+    margin-bottom: 10px;
+}
